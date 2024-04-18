@@ -12,15 +12,25 @@ The details of the movies(title, genre, runtime, rating, poster, etc) are fetche
 ## Overview of the project:
 
 •	Appended 2016 and 2017 movie datasets from Kaggle 
+
 •	Scraped the movie data for 2018-2020 from Wikipedia 
+
 •	Reviews were scraped from IMDB using bs4 
+
 •	TfidfVectorizer was used along with Spacy to tokenize and learn the vocabulary from the document 
-•	Multinomial Naive Bayes Classifier was used as the predictor for Sentiment Analysis 
-•	Used F-Score, Precision, recall evaluating model performance
+
+•	Multinomial Naive Bayes Classifier was used as the predictor for Sentiment Analysis
+
+•	Used F-Score, Precision, recall to evaluate model performance
+
 •	Joblib library was used to pickle the model and to load it in Flask
+
 •	Cosine-similarity was used for the content-based recommender system
-•	Used third party API to extract movie specifics such as genre, rating, poster, etc.
+
+•	Used third-party API to extract movie specifics such as genre, rating, poster, etc.
+
 •	HTML, CSS and JavaScript were used for the front-end 
+
 •	The web application was deployed on Heroku
 
 ## Check out the app: 
