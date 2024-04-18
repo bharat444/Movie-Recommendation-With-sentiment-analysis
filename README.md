@@ -5,11 +5,30 @@
 ![Frontend](https://img.shields.io/badge/Frontend-HTML/CSS/JS-green)
 ![API](https://img.shields.io/badge/API-TMDB-fcba03)
 
-Content Based Recommender System recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie.
+Content-Based Recommender System recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie.
 
 The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using `beautifulsoup4` and performed sentiment analysis on those reviews.
 
+## Overview of the project:
 
+•	Appended 2016 and 2017 movie datasets from Kaggle 
+•	Scraped the movie data for 2018-2020 from Wikipedia 
+•	Reviews were scraped from IMDB using bs4 
+•	TfidfVectorizer was used along with Spacy to tokenize and learn the vocabulary from the document 
+•	Multinomial Naive Bayes Classifier was used as the predictor for Sentiment Analysis 
+•	Used F-Score, Precision, recall evaluating model performance
+•	Joblib library was used to pickle the model and to load it in Flask
+•	Cosine-similarity was used for the content-based recommender system
+•	Used third party API to extract movie specifics such as genre, rating, poster, etc.
+•	HTML, CSS and JavaScript were used for the front-end 
+•	The web application was deployed on Heroku
+
+## Check out the app: 
+https://movies-u-like.herokuapp.com/
+
+## Application quick demo: 
+
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/67918990/103171183-14c80580-4818-11eb-9c5b-1f7e41362095.gif)
 ## How to get the API key?
 
 Create an account in https://www.themoviedb.org/, click on the `API` link from the left hand sidebar in your account settings and fill all the details to apply for API key. If you are asked to give URL for the website, just give "NA" if you don't have one. You will see the API key in your `API` sidebar once your request is approved.
