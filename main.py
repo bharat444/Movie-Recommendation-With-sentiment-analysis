@@ -1,4 +1,11 @@
-
+"""
+Auther:
+1.	Aljesh Basnet	C0919827
+2.	Bharat Dhungana	C0916253
+3.	Bijay Adhikari	C0883819
+4.	Satish Kandel	C0916210
+5.	Shishir Dhakal	C0913605
+"""
 import numpy as np
 import pandas as pd
 from flask import Flask, render_template, request
