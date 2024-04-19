@@ -12,7 +12,7 @@ Sign up on https://www.themoviedb.org/, access the API link from the left-hand s
 ## How to run the project?
 
 1. Ensure to install all the libraries listed in the requirements.txt file.
-2. Clone this repository: git clone git@github.com:bharat444/Movie-Recommendation-With-sentiment-analysis.git
+2. Clone this repository: [git clone git@github.com:bharat444/Movie-Recommendation-With-sentiment-analysis.git]
 3. Replace YOUR_API_KEY in the main.py file with your actual API key.
 4. Open the command prompt or terminal from your project directory and execute the command python main.py.
 5. Access http://127.0.0.1:5000/ in your web browser's address bar.
