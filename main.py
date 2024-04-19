@@ -23,7 +23,7 @@ tmdb.api_key = 'd23848e2f4c87463e659acc9f4ba409a'
 
 from tmdbv3api import Movie
 
-# load the nlp model and tfidf vectorizer from disk
+# load the nlp model and tfidf vectorizer model folder
 filename = 'model/nlp_model.pkl'
 clf = pickle.load(open(filename, 'rb'))
 vectorizer = pickle.load(open('model/tranform.pkl','rb'))
