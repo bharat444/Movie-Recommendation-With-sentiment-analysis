@@ -24,4 +24,15 @@ A similarity score is a numerical value ranging from zero to one, assisting in g
 ## How Cosine Similarity works?
 Cosine similarity is a technique employed to assess the similarity between documents, regardless of their size. In mathematical terms, it calculates the cosine of the angle between two vectors projected in a multi-dimensional space. This method offers advantages because even if two similar documents are widely separated by Euclidean distance (which can occur due to differences in document size), there's a possibility they might still align closely together. Smaller angles correspond to higher cosine similarity values.
 
+## Contributors
+We are a group of dedicated students working collaboratively on the Movie Recomendation project. Our diverse backgrounds and shared interest in machine learning have brought us together to develop this model. Each member has contributed significantly to various aspects of the project, from data preprocessing and feature engineering to model training and user interface design. We are committed to providing a valuable tool movie market, helping movie company to recomend in better way. Below is a list of our group members:
+
+| S/N | Full Name | Student ID |
+| --- | --------- | ---------- |
+| 1 | Aljesh Basnet | C0919827 |
+| 2 | Bharat Dhungana | C0916253 |
+| 3 | Bijay Adhikari | C0883819 |
+| 4 | Satish Kandel | C0916210 |
+| 5 | Shishir Dhakal | C0913605 |
+
 
